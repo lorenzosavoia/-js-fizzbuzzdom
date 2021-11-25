@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 10000px;
+    background-color: #083b4c;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 5em;
+}
+
+.square-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square{
+    width: calc(100% / 8);
+    line-height: 150px;
+    margin: 10px;
+    background-color: #1588b2;
+    text-align: center;
+}
+
+.green{
+    background-color: #0cd6a1;
+}
+.yellow{
+    background-color: #ffd166;
+}
+.red{
+    background-color:#f0476f ;
+}
